@@ -1,0 +1,57 @@
+body {
+    background-color: #f0f5e0; /* Fondo de color verde pastel claro */
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .app-container {
+    background-color: #c8e6c9; /* Color de fondo del contenedor principal */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  select,
+  input[type="text"],
+  button {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #4caf50; /* Borde verde */
+    border-radius: 5px;
+    background-color: #ffffff; /* Fondo blanco */
+  }
+  
+  select {
+    width: 100%;
+  }
+  
+  button {
+    background-color: #4caf50; /* Color de fondo verde */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Color de fondo verde más oscuro al pasar el mouse */
+  }
+  
+  .card {
+    background-color: #dcedc8; /* Color de fondo del componente Card */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
